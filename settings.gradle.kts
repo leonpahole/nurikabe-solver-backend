@@ -1,6 +1,6 @@
 rootProject.name = "nurikabe-solver-backend"
 
-includeBuild("../solver")  {
+includeBuild("../solver") {
     dependencySubstitution {
         substitute(module("com.leonpahole:nurikabe-solver")).with(project(":"))
     }

@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class NurikabeSolverBackendApplication
 
 fun main(args: Array<String>) {
-	runApplication<NurikabeSolverBackendApplication>(*args)
+    runApplication<NurikabeSolverBackendApplication>(*args)
 }
